@@ -16,36 +16,48 @@
 	<link rel="stylesheet" href="css/style.css" onload="if(media!='all')media='all'">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 	<link rel="icon" href="img/logo.svg">
+	<script src="js/script.js" loading="lazy"></script>
 	<title>Ty developper</title>
 </head>
-
 <body id="Body">
 	<!-- Header -->
-	<header class="header">
-<div class="header__icon">
-	<img src="./img/icon/menu.svg" alt="bouton pour ouvrir le menue" width="49" height="49" >
-</div>
-<nav class="header__nav">
-	<img src="./img/logo.svg" alt="logo du site" width="195" height="41px" loading="lazy">
-	<ul class="header__nav-list">
-		<li><a href="#">Accueil</a></li>
-		<li><a href="#">Portfolio</a></li>
-		<li><a href="#">Service</a></li>
-		<li><a href="#">Blog</a></li>
-	</ul>
-<div class="header__nav-reseaux">
-<a href="https://www.instagram.com/tydevelopper/">
-	<img src="./img/reseau/linkedin.svg" alt="icon linkedin" width="22" height="22">
-	<img src="./img/reseau/github.svg" alt="icon github" width="22" height="22">
-	<img src="./img/reseau/instagram.svg" alt="icon instagram" width="22" height="22">
-	<img src="./img/reseau/twitch.svg" alt="icon twitch" width="22" height="22">
-</a>
-</div>
-</nav>
-	</header>
 	<!-- Main -->
-	<main id="App">
-
+	<main>
+		<header class="header padding backgroundGradient">
+			<div class="max-w">
+				<div class="header__icon">
+					<img id="burger" src="./img/icon/menu.svg" alt="bouton pour ouvrir le menue" width="49" height="49" >
+				</div>
+				<nav class="header__nav">
+					<img src="./img/logo.svg" alt="logo du site" width="195" height="41px" loading="lazy">
+					<ul class="header__nav-list">
+						<li><a class="links" href="#">Accueil</a></li>
+						<li><a class="links" href="#">Portfolio</a></li>
+						<li><a class="links" href="#">Service</a></li>
+						<li><a class="links" href="#">Blog</a></li>
+					</ul>
+				<div class="header__nav-reseaux">
+					<!-- instagram -->
+				<a href="https://www.instagram.com/tydevelopper/">
+					<img src="./img/reseau/instagram.svg" alt="icon instagram" width="22" height="22">
+				</a>
+				<!-- TODO:ajouter les liens -->
+				<a href="">
+					<img src="./img/reseau/github.svg" alt="icon github" width="22" height="22">
+				</a>
+				<!-- linkedin -->
+				<a href="">
+					<img src="./img/reseau/linkedin.svg" alt="icon linkedin" width="22" height="22">
+				</a>
+				<!-- twitch -->
+				<a href="">
+					<img src="./img/reseau/twitch.svg" alt="icon twitch" width="22" height="22">
+				</a>
+				</div>
+				</nav>
+			</div>
+			
+				</header>
 	</main>
 
 	<footer>

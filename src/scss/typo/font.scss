@@ -1,9 +1,22 @@
 @font-face {
-    font-family: "roboto";
-    src: url("../font/roboto/Roboto-Medium.ttf");
+    font-family: "openSans";
+    src: url("../font/opensans/Opensans-Bold.ttf");
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: "openSans";
+    src: url("../font/opensans/OpenSans-SemiBold.ttf");
+    font-weight: 600;
+    font-display: swap;
+}
+@font-face {
+    font-family: "openSans";
+    src: url("../font/opensans/Opensans-Medium.ttf");
     font-weight: 500;
     font-display: swap;
 }
+/* roboto */
 @font-face {
     font-family: "roboto";
     src: url("../font/roboto/Roboto-Regular.ttf");

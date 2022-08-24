@@ -1,4 +1,64 @@
 .header{
     background-color: #F6EAFF;
     height: 87px;
+    @include media(medium){
+        background-color: transparent;
+    }
+    /* global */
+    a{
+        text-decoration: none;
+        color: var(--txt-primary-color);
+        font-size: 22px;
+    }
+/* icon menu */
+    &__icon{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 31px 10px  0 0;
+        @include media(medium){
+           display: none;
+        }
+    }
+    /* menu ouvert */
+    &__nav{
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F6EAFF;
+        gap: 42px;
+        border-top: 1px solid var(--border-color);
+        padding: 15px;
+        @include media(medium){
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: transparent;
+        }
+        /* li */
+        &-list{
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+            text-align: center;
+            @include media(medium){
+                flex-direction: row;
+            }
+        }
+        &-reseaux{
+            display: flex;
+            gap: 4px;
+            a{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 45px;
+                height: 45px;
+            }
+        }
+    }
+}
+.active{
+    display: flex;
 }

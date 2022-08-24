@@ -1,7 +1,46 @@
 :root{
-    --background-primary-color: linear-gradient(90deg, #eff5fd 0%, f7e8ff 100%);
     -background-secondary-color:#FFFFFE;
     --background-btn-color: #ff5677;
-    --txt-color: #5f6c78;
+    --txt-primary-color: #5f6c78;
+    --txt-secondary-color: rgba(253, 49, 89, 0.6);
     --border-color: rgba(0,0,0,0.1);
+    --radius: 8px;
 }
+.backgroundGradient{
+    background: linear-gradient(90deg, #EEF6FD 0%, #F8E7FF 100%);
+}
+.titel{
+    font-family: openSans;
+    font-weight: bold;
+    font-size: 64px;
+}
+.titelMedium{
+    font-family: openSans;
+    font-weight: bold;
+    font-size: 45px;
+}
+.titleSmall{
+    font-family: openSans;
+    font-weight: bold;
+    font-size: 24px;
+}
+.links{
+    font-family: openSans;
+    font-weight: 600;
+}
+.padding{
+    @include media (medium){
+        padding: 0 35px;
+    }
+    @include media (large){
+        padding: 0 80px;
+    }
+    @include media (largeXl){
+        padding: 0 247px;
+    }
+}
+.max-w{
+    max-width: 1920px;
+    margin: auto;
+}
+
