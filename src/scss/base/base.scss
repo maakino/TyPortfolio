@@ -1,5 +1,5 @@
 :root{
-    -background-secondary-color:#FFFFFE;
+    --background-secondary-color:#FFFFFE;
     --background-btn-color: #ff5677;
     --txt-primary-color: #5f6c78;
     --txt-secondary-color: rgba(253, 49, 89, 0.6);
@@ -22,13 +22,14 @@
 .titleSmall{
     font-family: openSans;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 26px;
 }
 .links{
     font-family: openSans;
     font-weight: 600;
 }
 .padding{
+    padding: 23px 10px;
     @include media (medium){
         padding: 0 35px;
     }
@@ -43,4 +44,27 @@
     max-width: 1920px;
     margin: auto;
 }
-
+.paragraph{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: var(--txt-primary-color);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 206px;
+    height: 52px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+    border: none;
+    font-size: 18px;
+    font-family: "openSans";
+}
+.btn-primary{
+    background-color: var(--background-btn-color);
+            color: var(--background-secondary-color);
+}
+.margin-txt{
+    margin-bottom: 23px;
+}

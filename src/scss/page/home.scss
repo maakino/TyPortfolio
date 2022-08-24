@@ -1,7 +1,7 @@
 .home{
+    /* background image */
     background-image: url('../../../img/home/small/Group\ 26.svg');
     background-repeat: no-repeat;
-    background-position: 195px -35px;
     @include media (small){
 
     background-image: url('../../../img/home/large/bkg.svg');
@@ -16,6 +16,23 @@
     }
     @include media (largeXl){
         background-position: 0;
+    }
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 26px;
+    &__info{
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        &-titel{
+            font-size: 28px;
+        }
+        &-txt{
+            font-size: 18px;
+        }
+    }
+    &__img{
+        margin: auto;
     }
 }
 
