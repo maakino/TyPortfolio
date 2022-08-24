@@ -1,0 +1,21 @@
+.home{
+    background-image: url('../../../img/home/small/Group\ 26.svg');
+    background-repeat: no-repeat;
+    background-position: 195px -35px;
+    @include media (small){
+
+    background-image: url('../../../img/home/large/bkg.svg');
+    background-position: -921px;
+    }
+    @include media (medium){
+        background-image: url('../../../img/home/large/bkg.svg');
+        background-position: -731px;
+    }
+    @include media (large){
+        background-position: -424px;
+    }
+    @include media (largeXl){
+        background-position: 0;
+    }
+}
+
