@@ -33,7 +33,8 @@
         background-color: #F6EAFF;
         gap: 42px;
         border-top: 1px solid var(--border-color);
-        padding: 15px;
+        padding-top: 15px;
+        width: 100vw;
         @include media(medium){
             display: flex;
             flex-direction: row;

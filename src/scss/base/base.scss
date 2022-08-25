@@ -53,17 +53,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 206px;
+    min-width: 206px;
+    max-width: 230px;
+    margin: auto;
+    gap: 10px;
     height: 52px;
     border-radius: 8px;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
     border: none;
     font-size: 18px;
     font-family: "openSans";
+    padding: 18px 14px;
 }
 .btn-primary{
     background-color: var(--background-btn-color);
-            color: var(--background-secondary-color);
+    color: var(--background-secondary-color);
 }
 .margin-txt{
     margin-bottom: 23px;
@@ -71,4 +75,7 @@
 }
 section{
     z-index: 1;
+}
+a{
+    text-decoration: none;
 }
