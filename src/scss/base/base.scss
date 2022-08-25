@@ -30,6 +30,9 @@
 }
 .padding{
     padding: 23px 10px;
+    @include media (small){
+        padding: 23px 22px;
+    }
     @include media (medium){
         padding: 0 35px;
     }

@@ -7,12 +7,15 @@
         align-items: center;
         gap: 48px;
         z-index: -1;
+        @include media(small){
+        }
         span{
             filter: drop-shadow(0px 8px 24px rgba(0, 0, 0, 0.05));
             img{
                 display: block;
+                width: 350px;
+                height: auto;
             }
         }
     }
-  
 }
