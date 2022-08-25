@@ -1,0 +1,32 @@
+.card{
+    background-color: var(--background-secondary-color);
+    padding: 11px;
+    width: 257px;
+    height: 357px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    &__img{
+        background-repeat: no-repeat;
+        width: 172px;
+        height: 132px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__info{
+        text-align: center;
+    }
+}
+.primary{
+    background-image: url('../../../img/card/primary.svg');
+}
+.secondary{
+    background-image: url('../../../img/card/secondary.svg');
+}
+.thirdary{
+    background-image: url('../../../img/card/');
+
+}

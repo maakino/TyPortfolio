@@ -12,17 +12,17 @@
 .titel{
     font-family: openSans;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 28px;
 }
 .titelMedium{
     font-family: openSans;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 26px;
 }
 .titleSmall{
     font-family: openSans;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 20px;
 }
 .links{
     font-family: openSans;
@@ -67,4 +67,8 @@
 }
 .margin-txt{
     margin-bottom: 23px;
+    text-align: center;
+}
+section{
+    z-index: 1;
 }
