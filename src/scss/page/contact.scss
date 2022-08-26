@@ -1,4 +1,7 @@
 .contact{
+    @include media(large){
+        padding: 75px 0;
+    }
     &__form{
         display: flex;
         flex-direction: column;

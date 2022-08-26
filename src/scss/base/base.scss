@@ -18,6 +18,9 @@
     font-family: openSans;
     font-weight: bold;
     font-size: 26px;
+    @include media (large){
+        font-size: 36px;
+    }
 }
 .titleSmall{
     font-family: openSans;
@@ -34,7 +37,7 @@
         padding: 23px 22px;
     }
     @include media (medium){
-        padding: 0 35px;
+        padding: 23px 35px;
     }
     @include media (large){
         padding: 0 80px;
@@ -58,7 +61,7 @@
     align-items: center;
     min-width: 206px;
     max-width: 230px;
-    margin: auto;
+    margin: 0 auto;
     gap: 10px;
     height: 52px;
     border-radius: 8px;

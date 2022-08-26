@@ -10,6 +10,11 @@
         height: 50px;
         max-width: none;
     }
+    @include media (medium){
+        width: 652px;
+        height: 54px;
+        max-width: none;
+    }
 
 }
 .textarea{

@@ -1,11 +1,17 @@
 .services{
+   @include media(large){
+      padding: 75px 0;
+  }
    &__content{
     display: flex;
     flex-direction: column;
     gap: 73px;
     @include media (small){
-      flex-direction: row;
       gap: 21px;
   }
+  @include media (medium){
+  flex-direction: row;
+}
+
    }
 }

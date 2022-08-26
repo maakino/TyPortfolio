@@ -2,6 +2,10 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+    @include media (large){
+        flex-direction: row;
+        padding-left: 0;
+        }
     h3{
         text-align: left;
     }
@@ -13,6 +17,42 @@
         background-image: url('../../../img/info/mobile/bloob.svg');
         background-repeat: no-repeat;
         background-position: center;
+         @include media (medium){
+            height: auto;
+        }
+        @include media (large){
+        background-image: url('../../../img/info/blobs.svg');
+        width: 749px;
+        height: 554px;
+        background-position: -137px;
+        }
+        img{
+            @include media (medium){
+                width: 177px;
+                height: auto;
+            }
+            @include media (large){
+                width: 280px;
+                height: auto;
+                margin-right: 248px;
+            }
+        }
+    }
+    &__txt{
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        @include media (large){
+            justify-content: center;
+            width: 723px;
+            padding-bottom: 170px;
+            align-items: flex-start;
+        }
+    }
+    &__btn{
+        @include media (large){
+          margin: 0;
+        }
     }
 }
 

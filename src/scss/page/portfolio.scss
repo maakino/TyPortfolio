@@ -1,20 +1,38 @@
 .portfolio{
     text-align: center;
+    @include media(medium){
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    @include media(medium){
+        padding-bottom: 75px;
+    }
     &__content{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 48px;
-        z-index: -1;
-        @include media(small){
+        @include media(medium){
+            flex-direction: row;
         }
         span{
             filter: drop-shadow(0px 8px 24px rgba(0, 0, 0, 0.05));
+            display: block;
             img{
-                display: block;
-                width: 350px;
-                height: auto;
+                @include media(small){
+                    width: 350px;
+                    height: auto;
+                }
+                @include media(medium){
+                    width: 280px;
+                    height: auto;
+                }
+                @include media(large){
+                    width: 408px;
+                    height: auto;
+                }
             }
         }
     }

@@ -10,9 +10,11 @@
     @include media (medium){
         background-image: url('../../../img/home/large/bkg.svg');
         background-position: -731px;
+        height: 520px;
     }
     @include media (large){
         background-position: -424px;
+        height: 832px;
     }
     @include media (largeXl){
         background-position: 0;
@@ -29,14 +31,42 @@
         flex-direction: column;
         gap: 26px;
         text-align: center;
+        align-items: center;
         @include media(small){
-            height: fit-content;
+            height: 400px;
+            width: 60%;
+            align-items: center;
+            background-repeat: no-repeat;
+            justify-content: center;
+
         }
+        @include media(medium){
+            width: 50%;
+            background-image: url('../../../img/home/medium/wave.svg');
+            height: 414px;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+        }
+
+        }
+       /*   @include media(large){
+            width: 80%;
+            display: flex;
+            background-image: url('../../../img/home/large/wave.svg');
+            height: 532px;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+        } */
         &-titel{
             font-size: 28px;
             @include media(small){
                font-size: 36px;
             }
+            @include media(large){
+                font-size: 64px;
+             }
         }
         &-txt{
             font-size: 18px;
@@ -44,7 +74,12 @@
                 font-size: 24px;
              }
         }
-    }
+        @include media(large){
+             &-titel, &-txt{
+            width: 522px;
+        }
+         }
+
     &__img{
         margin: auto;
         img{
@@ -52,9 +87,17 @@
                 height: 400px;
                 width: auto;
              }
+             @include media(large){
+                height: 601px;
+                width: auto;
+             }
         }
     }
+    &__btn{
+        margin: 0;
+    }
 }
+
 
 .section-home{
     padding-top: 87px;
