@@ -9,6 +9,14 @@
     @include media(medium){
         background-color: transparent;
     }
+    @include media(largeXl){
+        height: 105px;
+        padding-top: 0;
+        padding-bottom: 0;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    }
     /* global */
     a{
         text-decoration: none;
@@ -39,6 +47,15 @@
             flex-direction: row;
             justify-content: space-between;
             background-color: transparent;
+            border: none;
+            padding: 0;
+        }
+        @include media(large){
+            padding: 15px;
+        }
+        @include media(largeXl){
+            padding: 0;
+            gap: 275px;
         }
         /* li */
         &-list{

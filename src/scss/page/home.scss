@@ -14,10 +14,12 @@
     }
     @include media (large){
         background-position: -424px;
-        height: 832px;
+        height: 764px;
     }
     @include media (largeXl){
         background-position: 0;
+        padding-top: 0;
+        padding-bottom: 0;
     }
     display: flex;
     flex-direction: column-reverse;
@@ -40,25 +42,24 @@
             justify-content: center;
 
         }
-        @include media(medium){
-            width: 50%;
-            background-image: url('../../../img/home/medium/wave.svg');
+        @include media(small){
+            background-image: url('../../../img/home/small/text.svg');
             height: 414px;
-            align-items: center;
+            align-items: flex-start;
             justify-content: center;
             text-align: left;
+            background-position: -55px;
         }
+        @include media(medium){
+            background-image: url('../../../img/home/medium/wave.svg');
+        }
+        @include media(largeXl){
+            background-image: url('../../../img/home/large/wave.svg');
+            width: 697px;
+            height: 533px;
+            background-position: 0;
 
         }
-       /*   @include media(large){
-            width: 80%;
-            display: flex;
-            background-image: url('../../../img/home/large/wave.svg');
-            height: 532px;
-            align-items: center;
-            justify-content: center;
-            text-align: left;
-        } */
         &-titel{
             font-size: 28px;
             @include media(small){
@@ -74,6 +75,8 @@
                 font-size: 24px;
              }
         }
+        }
+
         @include media(large){
              &-titel, &-txt{
             width: 522px;

@@ -1,13 +1,18 @@
 .info{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
     @include media (large){
         flex-direction: row;
         padding-left: 0;
         }
     h3{
         text-align: left;
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+        @include media(large){
+            flex-direction: row;
+        }
     }
     &__img{
         display: flex;
@@ -41,7 +46,7 @@
     &__txt{
         display: flex;
         flex-direction: column;
-        gap: 14px;
+        gap: 23px;
         @include media (large){
             justify-content: center;
             width: 723px;
@@ -50,7 +55,7 @@
         }
     }
     &__btn{
-        @include media (large){
+        @include media (small){
           margin: 0;
         }
     }

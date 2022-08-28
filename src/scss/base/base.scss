@@ -13,6 +13,13 @@
     font-family: openSans;
     font-weight: bold;
     font-size: 28px;
+    @include media (medium){
+        font-size: 36px;
+    }
+    @include media (largeXl){
+        font-size: 64px;
+        padding-left: 84px;
+    }
 }
 .titelMedium{
     font-family: openSans;
@@ -43,7 +50,7 @@
         padding: 0 80px;
     }
     @include media (largeXl){
-        padding: 0 247px;
+        padding: 57px 247px;
     }
 }
 .max-w{
@@ -54,6 +61,9 @@
     font-family: "Roboto";
     font-size: 18px;
     color: var(--txt-primary-color);
+    @include media (medium){
+        font-size: 24px;
+    }
 }
 .btn{
     display: flex;

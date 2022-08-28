@@ -1,28 +1,27 @@
 .portfolio{
     text-align: center;
-    @include media(medium){
-        display: flex;
+    display: flex;
         flex-direction: column;
-        gap: 12px;
-    }
-    @include media(medium){
-        padding-bottom: 75px;
-    }
+        gap: 23px;
+        @include media(largeXl){
+           padding-top: 0;
+        }
     &__content{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 48px;
+        gap: 23px;
         @include media(medium){
             flex-direction: row;
+            justify-content: space-between;
         }
         span{
             filter: drop-shadow(0px 8px 24px rgba(0, 0, 0, 0.05));
             display: block;
             img{
                 @include media(small){
-                    width: 350px;
+                    width: 420px;
                     height: auto;
                 }
                 @include media(medium){

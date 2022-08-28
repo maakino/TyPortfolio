@@ -5,9 +5,9 @@
    &__content{
     display: flex;
     flex-direction: column;
-    gap: 73px;
+    gap: 23px;
     @include media (small){
-      gap: 21px;
+      gap: 23px;
   }
   @include media (medium){
   flex-direction: row;

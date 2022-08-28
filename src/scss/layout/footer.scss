@@ -8,7 +8,9 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 35px;
+    gap: 23px;
+    border-top: 1px solid var(--border-color);
+
     @include media(medium){
         padding: 51px 0;
     }
@@ -51,8 +53,14 @@ footer{
     }
     &__hr{
         width: 60%;
-        @include media(medium){
-            width: 15%;
+        @include media(small){
+            width: 35%;
+        }
+        @include media(large){
+            width: 35%;
+        }
+        @include media(largeXl){
+            width: 20%;
         }
     }
     &__copy{
