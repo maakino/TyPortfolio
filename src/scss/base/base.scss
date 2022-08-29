@@ -5,6 +5,7 @@
     --txt-secondary-color: rgba(253, 49, 89, 0.6);
     --border-color: rgba(0,0,0,0.1);
     --radius: 8px;
+    scroll-behavior: smooth;
 }
 .backgroundGradient{
     background: linear-gradient(90deg, #EEF6FD 0%, #F8E7FF 100%);
@@ -50,7 +51,7 @@
         padding: 0 80px;
     }
     @include media (largeXl){
-        padding: 57px 247px;
+        padding: 57px 170px;
     }
 }
 .max-w{
@@ -75,11 +76,11 @@
     gap: 10px;
     height: 52px;
     border-radius: 8px;
-    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
     border: none;
     font-size: 18px;
     font-family: "openSans";
     padding: 0 14px;
+    box-shadow: 0px 8px 24px rgba(36, 36, 36, 0.15);
 }
 .btn-primary{
     background-color: var(--background-btn-color);

@@ -51,7 +51,10 @@
             background-position: -55px;
         }
         @include media(medium){
-            background-image: url('../../../img/home/medium/wave.svg');
+            background-image: url('../../../img/home/large/wave.svg');
+            height: 540px;
+            width: 700px;
+            background-position: right;
         }
         @include media(largeXl){
             background-image: url('../../../img/home/large/wave.svg');
@@ -65,6 +68,9 @@
             @include media(small){
                font-size: 36px;
             }
+            @include media(medium){
+                padding-left: 70px;
+              }
             @include media(large){
                 font-size: 64px;
              }
@@ -73,6 +79,12 @@
             font-size: 18px;
             @include media(small){
                 font-size: 24px;
+             }
+             @include media(medium){
+                padding-left: 70px;
+              }
+             @include media(largeXl){
+               padding-left: 90px;
              }
         }
         }
@@ -98,6 +110,12 @@
     }
     &__btn{
         margin: 0;
+        @include media(medium){
+            margin-left: 80px;
+          }
+        @include media(largeXl){
+            margin-left: 90px;
+          }
     }
 }
 

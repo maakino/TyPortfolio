@@ -2,32 +2,32 @@
 Header:
     - gerer le header au scroll
     - changer couleur des réseaux @done
-    - ajouter les liens
+    - ajouter les liens @done
     ipadpro:
         - enlever le trait en haut @done
         - enlever padding top @done
 
 Footer:
     - revoir la largeur des HR @done
-    - ajouter les liens
+    - ajouter les liens @done
     - couleur des réseaux
     - ajouter border top @done
 
 Buttton:
-    - Revoir la larguer hauteur
+    - Revoir la larguer hauteur @done
     - ajouter les liens
     - ajouter les icons @done
-    - ajouter cursor pointer
+    - ajouter cursor pointer @done
 
 Services:
     - font size des paragraph a baisser @done
 
 Portfolio:
-    - Revoir les marges avec le button
-    - mettre les image dans une balise a
+    - Revoir les marges avec le button @done
+    - mettre les image dans une balise a @done
 
 background:
-    - revoir le positionnement du baclground
+    - revoir le positionnement du background @done
 
 Ajouter:
     - rajouter page méthodes de travail
