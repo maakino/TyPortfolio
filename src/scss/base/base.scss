@@ -7,57 +7,7 @@
     --radius: 8px;
     scroll-behavior: smooth;
 }
-.backgroundGradient{
-    background: linear-gradient(90deg, #EEF6FD 0%, #F8E7FF 100%);
-}
-.titel{
-    font-family: openSans;
-    font-weight: bold;
-    font-size: 28px;
-    @include media (medium){
-        font-size: 36px;
-    }
-    @include media (largeXl){
-        font-size: 64px;
-        padding-left: 84px;
-    }
-}
-.titelMedium{
-    font-family: openSans;
-    font-weight: bold;
-    font-size: 26px;
-    @include media (large){
-        font-size: 36px;
-    }
-}
-.titleSmall{
-    font-family: openSans;
-    font-weight: bold;
-    font-size: 20px;
-}
-.links{
-    font-family: openSans;
-    font-weight: 600;
-}
-.padding{
-    padding: 23px 10px;
-    @include media (small){
-        padding: 23px 22px;
-    }
-    @include media (medium){
-        padding: 23px 35px;
-    }
-    @include media (large){
-        padding: 0 80px;
-    }
-    @include media (largeXl){
-        padding: 57px 170px;
-    }
-}
-.max-w{
-    max-width: 1920px;
-    margin: auto;
-}
+
 .paragraph{
     font-family: "Roboto";
     font-size: 18px;
@@ -66,30 +16,7 @@
         font-size: 24px;
     }
 }
-.btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 206px;
-    max-width: 230px;
-    margin: 0 auto;
-    gap: 10px;
-    height: 52px;
-    border-radius: 8px;
-    border: none;
-    font-size: 18px;
-    font-family: "openSans";
-    padding: 0 14px;
-    box-shadow: 0px 8px 24px rgba(36, 36, 36, 0.15);
-}
-.btn-primary{
-    background-color: var(--background-btn-color);
-    color: var(--background-secondary-color);
-}
-.margin-txt{
-    margin-bottom: 23px;
-    text-align: center;
-}
+
 section{
     z-index: 1;
 }
