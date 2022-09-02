@@ -1,25 +1,32 @@
-.titel{
+.titel, .titleSmall, .titelMedium{
     font-family: openSans;
     font-weight: bold;
+    text-align: center;
+}
+.titel,.titelMedium{
+    margin-bottom: 36px;
+}
+
+.titel{
     font-size: 28px;
     @include media (medium){
         font-size: 36px;
     }
-    @include media (largeXl){
+    @include media (large){
         font-size: 64px;
-        padding-left: 84px;
     }
 }
+
+.titleSmall{
+    font-size: 20px;
+}
+
 .titelMedium{
-    font-family: openSans;
-    font-weight: bold;
     font-size: 26px;
     @include media (large){
         font-size: 36px;
     }
 }
-.titleSmall{
-    font-family: openSans;
-    font-weight: bold;
-    font-size: 20px;
-}
+
+
+

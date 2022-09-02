@@ -1,0 +1,15 @@
+.method{
+    display: flex;
+    flex-direction: column;
+}
+.method__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+    height: auto;
+}
+
+
+

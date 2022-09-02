@@ -1,201 +1,397 @@
 <!DOCTYPE html>
-<html lang="fr" style="scroll-padding-top: 120px;">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Portfolio de teddy equerre" />
-	<meta name="author" content="Equerre Teddy" />
-	<meta property="og:description" content="description du site">
-	<meta property="og:type" content="website">
-	<meta property="og:locale" content="fr_FR">
-	<meta property="og:title" content="Accueil">
-	<meta property="og:site_name" content="name site">
-	<meta property="og:image" content="/img/logo.svg">
-	<link rel="stylesheet" href="css/style.css" onload="if(media!='all')media='all'">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-	<link rel="icon" href="img/logo.svg">
-	<script src="js/script.js" loading="lazy"></script>
-	<title>Ty developper</title>
-</head>
-<body id="Body">
-	<!-- Header -->
-	<!-- Main -->
-	<main>
-		<header class="header padding backgroundGradient">
-			<div class="max-w">
-				<div class="header__icon">
-					<img id="burger" src="./img/icon/menu.svg" alt="bouton pour ouvrir le menue" width="49" height="49" >
-				</div>
-				<nav class="header__nav">
-					<img src="./img/logo.svg" alt="logo du site" width="195" height="41px" loading="lazy">
-					<ul class="header__nav-list">
-						<li><a class="links" href="#home">Accueil</a></li>
-						<li><a class="links" href="#portfolio">Portfolio</a></li>
-						<li><a class="links" href="#services">Services</a></li>
-						<li><a class="links" href="#contact">Contact</a></li>
-					</ul>
-				<div class="header__nav-reseaux">
-					<!-- instagram -->
-				<a href="https://www.instagram.com/tydevelopper/">
-					<img src="./img/reseau/instagram.svg" alt="icon instagram" width="22" height="22">
-				</a>
-				<a href="https://github.com/maakino">
-					<img src="./img/reseau/github.svg" alt="icon github" width="22" height="22">
-				</a>
-				<!-- linkedin -->
-				<a href="https://www.linkedin.com/in/teddy-equerre-514a781a2/">
-					<img src="./img/reseau/linkedin.svg" alt="icon linkedin" width="22" height="22">
-				</a>
-				<!-- twitch -->
-				<a href="https://www.twitch.tv/maakyno">
-					<img src="./img/reseau/twitch.svg" alt="icon twitch" width="22" height="22">
-				</a>
-				</div>
-				</nav>
-			</div>
-				</header>
-				<section id="home"  class=" section-home backgroundGradient">
-					<div class="home max-w padding">
-						<div class="home__info">
-							<h1 class="titel home__info-titel"style="color: var(--txt-primary-color)">
-								Bienvenue chez <br>TY
-								<span style=" color:var(--txt-secondary-color)">
-									Developper
-								</span>
-							</h1>
-								<p class="home__info-txt paragraph">On vous accompagne de la recherche d’idée à la conception de vos sites web.</p>
-								<a class="btn btn-primary home__btn" href="#portfolio"> <p>Voir projets</p> <img src="img/icon/arrowRight.svg" alt=""> </a>
-						</div>
-						<div class="home__img">
-							<img src="./img/Illustration.png" alt="Ilustration acceuil" width="141" height="242">
-						</div>
-					</div>
-				</section>
-				<!-- portfolio -->
-				<section id="portfolio" class="backgroundGradient">
-					<div class="portfolio padding max-w" >
-						<h2 class="titelMedium margin-txt" style="color: var(--txt-primary-color)">Réalisations</h2>
-						<div class="portfolio__content">
-							<span>
-								<a href="#">
-									<img src="img/Frame 7.png" alt="" width="289" height="199">
-								</a>
-							</span>
-							<span>
-								<a href="#">
-									<img src="img/Frame 7.png" alt="" width="289" height="199">
-								</a>
-							</span>
-							<span>
-								<a href="#">
-									<img src="img/Frame 7.png" alt="" width="289" height="199">
-								</a>
-							</span>
-						</div>
-						<a href="#" class="btn btn-primary portfolio__btn" style="background-color: var(--background-btn-color);"><p>Voir tout les projets</p> <img src="img/icon/exit.svg" alt="" width="20" height="20"></a>
-					</div>
-				</section>
-				<!-- info -->
-				<section class="backgroundGradient" >
-					<div class="info padding max-w">
-						<h2 class="titelMedium margin-txt" style="color:var(--txt-primary-color);">Qui suis-Je ?</h2>
-						<div class="info__content">
-							<div class="info__img">
-								<img src="img/Illustration.png" alt="Ilustration de Teddy Equerre" width="135" height="231">
-						</div>
-						<div class="info__txt">
-							<h3 class="titleSmall " style="color:var(--txt-primary-color);"><span style="color: var(--txt-secondary-color);">Ty</span>developper</h3>
-							<p class="paragraph">Originaire de l’île de la réunion j’ai décidé de me former via des formations de développeur web et web designer. Suite à cela je me suis lancé en free-lance.
-								Je partage souvent ma passion lors de mes live <a href="#" style="color: var(--txt-secondary-color);">Twitch</a> .
-								</p>
-								<h3 class="titleSmall" style="color:var(--txt-primary-color);">Mon métier consiste à</h3>
-								<p class="paragraph">Concevoir des maquettes graphiques et de les intégrer dans un site web.</p>
-								<a href="#" class="btn btn-primary info__btn" style="background-color: var(--background-btn-color);"><p>Télécharger CV</p><img src="img/icon/dowload.svg" alt="" width="20" height="18"></a>
-							</div>
+<html lang="fr" style="scroll-padding-top: 120px">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio de teddy equerre" />
+    <meta name="author" content="Equerre Teddy" />
+    <meta property="og:description" content="description du site" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:title" content="Accueil" />
+    <meta property="og:site_name" content="name site" />
+    <meta property="og:image" content="/img/logo.svg" />
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+      onload="if(media!='all')media='all'"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/logo.svg" />
+    <script src="js/script.js" loading="lazy"></script>
+    <title>Ty developper</title>
+  </head>
+  <body id="Body">
+    <!-- Header -->
+    <!-- Main -->
+    <main>
+      <header class="header paddingHeader backgroundGradient">
+        <div class="max-w">
+          <div class="header__icon-menu">
+            <img
+              id="burger"
+              src="./img/icon/menu.svg"
+              alt="bouton pour ouvrir le menue"
+              width="49"
+              height="49"
+            />
+          </div>
+          <nav class="header__nav">
+            <img
+              src="./img/logo.svg"
+              alt="logo du site"
+              width="195"
+              height="41px"
+              loading="lazy"
+            />
+            <ul class="header__nav-list">
+              <li><a class="links" href="#home">Accueil</a></li>
+              <li><a class="links" href="#portfolio">Portfolio</a></li>
+              <li><a class="links" href="#services">Services</a></li>
+              <li><a class="links" href="#contact">Contact</a></li>
+            </ul>
+            <div class="header__nav-reseaux">
+              <!-- instagram -->
+              <a href="https://www.instagram.com/tydevelopper/">
+                <img
+                  src="./img/reseaux/instagram.svg"
+                  alt="icon instagram"
+                  width="22"
+                  height="22"
+                />
+              </a>
+              <a href="https://github.com/maakino">
+                <img
+                  src="./img/reseaux/github.svg"
+                  alt="icon github"
+                  width="22"
+                  height="22"
+                />
+              </a>
+              <!-- linkedin -->
+              <a href="https://www.linkedin.com/in/teddy-equerre-514a781a2/">
+                <img
+                  src="./img/reseaux/linkedin.svg"
+                  alt="icon linkedin"
+                  width="22"
+                  height="22"
+                />
+              </a>
+              <!-- twitch -->
+              <a href="https://www.twitch.tv/maakyno">
+                <img
+                  src="./img/reseaux/twitch.svg"
+                  alt="icon twitch"
+                  width="22"
+                  height="22"
+                />
+              </a>
+            </div>
+          </nav>
+        </div>
+      </header>
 
-						</div>
-					</div>
-					</section>
-					<section id="services" class="backgroundGradient">
-						<div class=" services padding max-w">
-							<h3 class="titelMedium margin-txt" style="color:var(--txt-primary-color);">Mes services</h3>
-							<div class="services__content">
-								<!-- card developper -->
-								<div class="card">
-									<div class="card__img primary">
-										<img src="img/icon/dev.svg" alt="" width="60" height="60">
-									</div>
-									<h3 class="card__tilte titleSmall" style="color:var(--txt-primary-color);">Développement web</h3>
-									<p class="card__info paragraph" style="color:var(--txt-primary-color);">Programmation de la partie visible de l’interface utilisateur ou d’un site web.</p>
-								</div>
-								<!-- card designer -->
-								<div class="card">
-									<div class="card__img secondary">
-										<img  src="img/icon/design.svg" alt="" width="60" height="60">
-									</div>
-									<h3 class="card__tilte titleSmall" style="color:var(--txt-primary-color);">Designer web</h3>
-									<p class="card__info paragraph" style="color:var(--txt-primary-color);">Création de maquette sur mesure en utilisant un outil de design qui se nomme Figma.</p>
-								</div>
-								<!-- card responsive -->
-								<div class="card">
-									<div class="card__img thirdary">
-										<img src="img/icon/responsive.svg" alt="" width="60" height="60">
-									</div>
-									<h3 class="card__tilte titleSmall" style="color:var(--txt-primary-color);">Responsive design web</h3>
-									<p class="card__info paragraph" style="color:var(--txt-primary-color);">Compatibilité des sites web sur PC, tablette et mobile</p>
-								</div>
-							</div>
-						</div>
-					</section>
-					<!-- methode -->
-					<section class="method">
-					</section>
-					<section id="contact">
-						<div class="contact padding max-w">
-							<h2   class="titelMedium margin-txt" style="color: var(--txt-primary-color);">Vous voulez lancer un projet ?</h2>
-							<form class="contact__form" action="">
-								<div class="contact-input">
-									<p class="paragraph">Nom</p>
-									<input class="input" type="text" placeholder="Entrer votre nom">
-								</div>
-								<div class="contact-input">
-									<p class="paragraph">E-Mail</p>
-									<input class="input" type="text" placeholder="Entrer votre nom">
-								</div>
-								<div class="contac-input">
-									<p class="paragraph">Message</p>
-									<textarea class="input textarea" name="" id="" cols="30" rows="10" placeholder="Votre message"></textarea>
-								</div>
-								<input class="btn btn-primary" type="submit" value="Envoyer">
-							</form>
-						</div>
-					</section>
-					<!-- footer -->
-					<footer>
-						<div class="footer padding">
-							<img src="img/logo.svg" alt="logo entreprise" width="256" height="54">
-							<ul class="footer__menu">
-								<li><a class="links" style="color: var(--txt-primary-color);" href="#">Accueil</a></li>
-								<li><a class="links" style="color: var(--txt-primary-color);" href="#">Portfolio</a></li>
-								<li><a class="links" style="color: var(--txt-primary-color);" href="#">Services</a></li>
-								<li><a class="links" style="color: var(--txt-primary-color);" href="#">Contact</a></li>
-							</ul>
-							<div class="footer__reseaux">
-								<span><a href="https://www.instagram.com/tydevelopper/"><img src="img/reseau/instagram.svg" alt="" width="22" height="22"></a></span>
-								<span><a href="https://github.com/maakino"><img src="img/reseau/github.svg" alt="" width="22" height="22"></a></span>
-								<span><a href="https://www.linkedin.com/in/teddy-equerre-514a781a2/"><img src="img/reseau/linkedin.svg" alt="" width="22" height="22"></a></span>
-								<span><a href="https://www.twitch.tv/maakyno"><img src="img/reseau/twitch.svg" alt="" width="22" height="22"></a></span>
-							</div>
-							<hr class="footer__hr" style="color: var(--border-color);">
-							<p class="footer__copy paragraph">Copyright Equerre Teddy - 2022</p>
-						</div>
-					</footer>
-	</main>
+      <section id="home" class="home-padding--top backgroundGradient">
+        <div class="home max-w padding">
+          <div class="home__info">
+            <h1
+              class="titel home__info-titel"
+              style="color: var(--txt-primary-color)"
+            >
+              Bienvenue chez <br />TY
+              <span style="color: var(--txt-secondary-color)">
+                Developper
+              </span>
+            </h1>
+            <p class="home__info-txt paragraph">
+              On vous accompagne de la recherche d’idée à la conception de vos
+              sites web.
+            </p>
+            <a class="btn btn-primary home__btn" href="#portfolio">
+              <p>Voir projets</p>
+              <img src="img/icon/arrowRight.svg" alt="" />
+            </a>
+          </div>
+          <div class="home__img">
+            <img
+              src="./img/Teddy-Ilustration.png"
+              alt="Ilustration acceuil"
+              width="141"
+              height="242"
+            />
+          </div>
+        </div>
+      </section>
 
-	<footer>
+      <section id="portfolio" class="backgroundGradient">
+        <h2
+        class="titelMedium margin-txt"
+        style="color: var(--txt-primary-color)"
+      >
+        Portfolio
+      </h2>
+        <div class="portfolio padding max-w">
+         
+          <div class="portfolio__content">
+            <span>
+              <a href="#">
+                <img src="img/portfolio/Frame 7.png" alt="" width="289" height="199" />
+              </a>
+            </span>
+            <span>
+              <a href="#">
+                <img src="img/portfolio/Frame 7.png" alt="" width="289" height="199" />
+              </a>
+            </span>
+            <span>
+              <a href="#">
+                <img src="img/portfolio/Frame 7.png" alt="" width="289" height="199" />
+              </a>
+            </span>
+          </div>
+          <a
+            href="#"
+            class="btn btn-primary portfolio-btn"
+            style="background-color: var(--background-btn-color)"
+            ><p>Voir tout les projets</p>
+            <img src="img/icon/exit.svg" alt="" width="20" height="20"
+          /></a>
+        </div>
+      </section>
 
-	</footer>
-</body>
+      <section class="backgroundGradient">
+        <div class="about padding max-w">
+          <h2
+            class="titelMedium margin-txt"
+            style="color: var(--txt-primary-color)"
+          >
+            Qui suis-Je ?
+          </h2>
+          <div class="about__content">
+            <div class="about__content-img">
+              <img
+                src="img/Teddy-Ilustration.png"
+                alt="Ilustration de Teddy Equerre"
+                width="135"
+                height="231"
+              />
+            </div>
+            <div class="about__content-txtBlock">
+              <h3
+                class="titleSmall about__content-smallTitel"
+                style="color: var(--txt-primary-color)"
+              >
+                <span style="color: var(--txt-secondary-color)">Ty</span
+                >developper
+              </h3>
+              <p class="paragraph">
+                Originaire de l’île de la réunion j’ai décidé de me former via
+                des formations de développeur web et web designer. Suite à cela
+                je me suis lancé en free-lance. Je partage souvent ma passion
+                lors de mes live
+                <a href="#" style="color: var(--txt-secondary-color)">Twitch</a>
+                .
+              </p>
+              <h3 class="titleSmall" style="color: var(--txt-primary-color)">
+                Mon métier consiste à
+              </h3>
+              <p class="paragraph">
+                Concevoir des maquettes graphiques et de les intégrer dans un
+                site web.
+              </p>
+              <a
+                href="#"
+                class="btn btn-primary content-btn"
+                style="background-color: var(--background-btn-color)"
+                ><p>Télécharger CV</p>
+                <img src="img/icon/dowload.svg" alt="" width="20" height="18"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="backgroundGradient">
+        <div class="services padding max-w">
+          <h3
+            class="titelMedium margin-txt"
+            style="color: var(--txt-primary-color)"
+          >
+            Mes services
+          </h3>
+          <div class="services__content">
 
+            <div class="card">
+              <div class="card__img primary">
+                <img src="img/icon/dev.svg" alt="" width="60" height="60" />
+              </div>
+              <h3
+                class="card__tilte titleSmall"
+                style="color: var(--txt-primary-color)"
+              >
+                Développement web
+              </h3>
+              <p
+                class="card-description paragraph"
+                style="color: var(--txt-primary-color)"
+              >
+                Programmation de la partie visible de l’interface utilisateur ou
+                d’un site web.
+              </p>
+            </div>
+            <!-- card designer -->
+            <div class="card">
+              <div class="card__img secondary">
+                <img src="img/icon/design.svg" alt="" width="60" height="60" />
+              </div>
+              <h3
+                class="card__tilte titleSmall"
+                style="color: var(--txt-primary-color)"
+              >
+                Designer web
+              </h3>
+              <p
+                class="card-description paragraph"
+                style="color: var(--txt-primary-color)"
+              >
+                Création de maquette sur mesure en utilisant un outil de design
+                qui se nomme Figma.
+              </p>
+            </div>
+            <!-- card responsive -->
+            <div class="card">
+              <div class="card__img thirdary">
+                <img
+                  src="img/icon/responsive.svg"
+                  alt=""
+                  width="60"
+                  height="60"
+                />
+              </div>
+              <h3
+                class="card__tilte titleSmall"
+                style="color: var(--txt-primary-color)"
+              >
+                Responsive design web
+              </h3>
+              <p
+                class="card-description paragraph"
+                style="color: var(--txt-primary-color)"
+              >
+                Compatibilité des sites web sur PC, tablette et mobile
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- methode -->
+      <section class="method"></section>
+      <section id="contact">
+        <div class="contact padding max-w">
+          <h2
+            class="titelMedium margin-txt"
+            style="color: var(--txt-primary-color)"
+          >
+            Vous voulez lancer un projet ?
+          </h2>
+          <form class="contact__form" action="">
+            <div class="contact-input">
+              <p class="paragraph">Nom</p>
+              <input class="input" type="text" placeholder="Entrer votre nom" />
+            </div>
+            <div class="contact-input">
+              <p class="paragraph">E-Mail</p>
+              <input class="input" type="text" placeholder="Entrer votre nom" />
+            </div>
+            <div class="contac-input">
+              <p class="paragraph">Message</p>
+              <textarea
+                class="input textarea"
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Votre message"
+              ></textarea>
+            </div>
+            <input class="btn btn-primary" type="submit" value="Envoyer" />
+          </form>
+        </div>
+      </section>
+      <!-- footer -->
+      <footer>
+        <div class="footer padding">
+          <img
+            src="img/logo.svg"
+            alt="logo entreprise"
+            width="256"
+            height="54"
+          />
+          <ul class="footer__menu">
+            <li>
+              <a class="links" style="color: var(--txt-primary-color)" href="#"
+                >Accueil</a
+              >
+            </li>
+            <li>
+              <a class="links" style="color: var(--txt-primary-color)" href="#"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a class="links" style="color: var(--txt-primary-color)" href="#"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a class="links" style="color: var(--txt-primary-color)" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <div class="footer__reseaux">
+            <span
+              ><a href="https://www.instagram.com/tydevelopper/"
+                ><img
+                  src="img/reseaux/instagram.svg"
+                  alt=""
+                  width="22"
+                  height="22" /></a
+            ></span>
+            <span
+              ><a href="https://github.com/maakino"
+                ><img
+                  src="img/reseaux/github.svg"
+                  alt=""
+                  width="22"
+                  height="22" /></a
+            ></span>
+            <span
+              ><a href="https://www.linkedin.com/in/teddy-equerre-514a781a2/"
+                ><img
+                  src="img/reseaux/linkedin.svg"
+                  alt=""
+                  width="22"
+                  height="22" /></a
+            ></span>
+            <span
+              ><a href="https://www.twitch.tv/maakyno"
+                ><img
+                  src="img/reseaux/twitch.svg"
+                  alt=""
+                  width="22"
+                  height="22" /></a
+            ></span>
+          </div>
+          <hr class="footer__hr" style="color: var(--border-color)" />
+          <p class="footer__copy paragraph">Copyright Equerre Teddy - 2022</p>
+        </div>
+      </footer>
+    </main>
+
+    <footer></footer>
+  </body>
 </html>

@@ -1,0 +1,12 @@
+.paddingHeader {
+  padding: 23px 10;
+  @include media(small) {
+    padding: 23px 22px;
+  }
+  @include media(medium) {
+    padding: 23px 35px;
+  }
+  @include media(large) {
+    padding: 0;
+  }
+}

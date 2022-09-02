@@ -1,0 +1,71 @@
+.about {
+  @include media(large) {
+    flex-direction: row;
+    padding-left: 0;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+
+    @include media(large) {
+      flex-direction: row;
+      background-image: url("../../../img/about/bkg.svg");
+      background-position: right 0;
+      background-repeat: no-repeat;
+    }
+
+    &-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 263px;
+      background-image: url("../../../img/about/mobile/bloob.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      @include media(medium) {
+        height: auto;
+      }
+
+      @include media(large) {
+        background-image: url("../../../img/about/blobs.svg");
+        width: 749px;
+        height: 554px;
+        background-position: -137px;
+      }
+
+      img {
+        @include media(medium) {
+          width: 177px;
+          height: auto;
+        }
+
+        @include media(large) {
+          width: 280px;
+          height: auto;
+          margin-right: 248px;
+        }
+      }
+    }
+
+    &-txtBlock {
+      display: flex;
+      flex-direction: column;
+      gap: 23px;
+
+      @include media(large) {
+        justify-content: center;
+        width: 723px;
+        padding-bottom: 170px;
+        align-items: flex-start;
+      }
+    }
+
+    &-btn {
+      @include media(small) {
+        margin: 0;
+      }
+    }
+  }
+}

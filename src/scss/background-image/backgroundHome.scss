@@ -1,0 +1,33 @@
+.home{
+    background-image: url('../../../img/background/home/backround-small-ilustration.svg');
+    background-repeat: no-repeat;
+
+    @include media (small){
+    background-image: url('../../../img/background/home/background-large-ilustration.svg');
+    background-position: -921px;
+    }
+
+    @include media (medium){
+        background-position: -731px;
+    }
+
+    @include media (large){
+        background-position: -424px;
+    }
+
+    @include media (largeXl){
+        background-position: 0;
+    }
+
+    &__info{
+        @include media(medium){
+            background-image: url('../../../img/home/large/wave-large.svg');
+            background-position: right;
+        }
+    }
+
+    @include media(largeXl){
+        background-position: 0;
+    }
+
+}

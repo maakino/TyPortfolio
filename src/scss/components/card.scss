@@ -35,12 +35,12 @@
     &__img{
         background-repeat: no-repeat;
         width: 172px;
-        height: 132px;
+        height: 129px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    &__info{
+    &-description{
         text-align: center;
         @include media(small){
         font-size: 18px;
@@ -48,12 +48,12 @@
     }
 }
 .primary{
-    background-image: url('../../../img/card/primary.svg');
+    background-image: url('../../../img/card/primary-blobs.svg');
 }
 .secondary{
-    background-image: url('../../../img/card/secondary.svg');
+    background-image: url('../../../img/card/secondary-blobs.svg');
 }
 .thirdary{
-    background-image: url('../../../img/card/thirdary.svg');
+    background-image: url('../../../img/card/thirdary-blobs.svg');
 
 }

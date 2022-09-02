@@ -1,0 +1,17 @@
+.padding{
+    padding: 23px 10px;
+    @include media (small){
+        padding: 23px 22px;
+    }
+    @include media (medium){
+        padding: 23px 35px;
+    }
+    @include media (large){
+        padding: 0 80px;
+    }
+    @include media (largeXl){
+        padding: 57px 170px;
+    }
+}
+
+

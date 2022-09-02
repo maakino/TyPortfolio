@@ -12,7 +12,7 @@
     font-family: "Roboto";
     font-size: 18px;
     color: var(--txt-primary-color);
-    @include media (medium){
+    @include media (small){
         font-size: 24px;
     }
 }

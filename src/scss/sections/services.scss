@@ -1,0 +1,23 @@
+.services {
+  @include media(large) {
+    padding-top: 0;
+    padding-bottom: 75px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+
+    @include media(medium) {
+      flex-direction: row;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @include media(large) {
+      gap: 79px;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.contact{
+    @include media(medium){
+        background-image: url('../../../img/background/contact/ilustration.svg');
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    @include media(large){
+        padding: 75px 0;
+    }
+    &__form{
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+        align-items: center;
+    }
+    input[type=submit]{
+        background-image: url('../../../img/icon/bi_send-check-fill.svg');
+        background-repeat: no-repeat;
+        background-position: 137px 18px;
+        max-width: fit-content;
+        min-width: 186px;
+        cursor: pointer;
+    }
+}
