@@ -1,3 +1,6 @@
 .home-padding--top{
     padding-top: 87px;
+    @include media(large){
+        padding-top: 105px;
+    }
 }

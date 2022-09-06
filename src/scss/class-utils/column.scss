@@ -1,0 +1,36 @@
+.column {
+    display: flex;
+  @include media(medium) {
+    flex-direction: column;
+    gap: 36px;
+  }
+  &1 {
+    @include media(medium) {
+      margin-top: 36px;
+    }
+  }
+  &2 {
+    @include media(medium) {
+      margin-top: 78px;
+    }
+  }
+  &__mobile {
+    display: flex;
+    flex-direction: column;
+
+    @include media(medium) {
+      display: none;
+    }
+  }
+  .card {
+    width: 314px;
+    height: 425px;
+    &:nth-child(2) {
+      display: none;
+
+      @include media(medium) {
+        display: flex;
+      }
+    }
+  }
+}

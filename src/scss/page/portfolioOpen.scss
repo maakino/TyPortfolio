@@ -1,0 +1,32 @@
+.portfolioOpen {
+  display: grid;
+  height: auto;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 50px;
+  &-title{
+    margin-bottom: 0 !important;
+  }
+  &-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    width: 100%;
+    min-width: 300px;
+    max-width: 400px;
+  }
+
+  @include media(small) {
+    gap: 50px;
+    grid-template-columns: repeat(auto-fill, 400px);
+  }
+
+  @include media(medium) {
+    grid-gap: 73px;
+  }
+}

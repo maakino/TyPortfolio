@@ -1,0 +1,15 @@
+.workingMethod {
+    background-image: url('../../../img/background/footer/background-footer.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+  height: auto;
+
+  @include media(medium) {
+    flex-direction: row;
+  }
+}
+
+

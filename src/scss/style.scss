@@ -8,6 +8,9 @@
 //layout
 @import "layout/header";
 @import "layout/footer";
+//page
+@import "page/portfolioOpen";
+
 //sections
 @import "sections/home";
 @import "sections/portfolio";
@@ -15,6 +18,8 @@
 @import "sections/services";
 @import "sections/method";
 @import "sections/contact";
+@import "sections/workingMethod";
+
 
 //component
 @import "components/card";
@@ -29,6 +34,8 @@
 @import "class-utils/links";
 @import "class-utils/home-paddingTop";
 @import "class-utils/padding-header";
+@import "class-utils/column";
+
 
 
 //background
