@@ -1,4 +1,5 @@
 .workingMethod {
+  padding-top: 0 !important;
     background-image: url('../../../img/background/footer/background-footer.png');
   display: flex;
   flex-direction: column;
@@ -7,9 +8,21 @@
   gap: 36px;
   height: auto;
 
+  &__number{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: openSans;
+  }
   @include media(medium) {
     flex-direction: row;
   }
+
 }
 
+.workingMethod__tile{
+  margin-top: 36px;
+  @include media(medium) {
+   margin-top: 57px;
+  }
+}
 
